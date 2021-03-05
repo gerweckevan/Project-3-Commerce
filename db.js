@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const url = `mongodb+srv://root:root@cluster0.nfkwi.mongodb.net/Cluster0?retryWrites=true&w=majority`;
+const url = process.env.ATLAS_URI`mongodb+srv://root:root@cluster0.nfkwi.mongodb.net/Cluster0?retryWrites=true&w=majority`;
 
 const connectionParams = {
     useNewUrlParser: true,
