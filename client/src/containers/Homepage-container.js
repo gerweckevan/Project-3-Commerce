@@ -17,7 +17,7 @@ const Homepage = () => (
         {
           id: "1",
           message:
-            "Welcome to Creative Artist Design. I am Chatbot 3000, what is your name?",
+            "Welcome to Creative Artist Design. I am Chatbot 3000, together we will Take Over the World! What is your name?",
           trigger: "2",
         },
         {
