@@ -8,8 +8,8 @@ const styles = { marginTop: "-33px" };
 const Homepage = () => (
   <div>
     <Helmet>
-      <title>Demo Ecommerce template</title>
-      <meta name="description" content="Demo Ecommerce template" />
+      <title>Creative Artist Design</title>
+      <meta name="description" content="Homepage" />
     </Helmet>
     <HeroBanner />
     <ChatBot
@@ -28,6 +28,28 @@ const Homepage = () => (
         {
           id: "3",
           message: "Hello {previousValue}, nice to meet you!",
+          trigger: "4",
+          // end: true,
+        },
+        {
+          id: "4",
+          user: true,
+          trigger: "5",
+        },
+        {
+          id: "5",
+          message: "What may I assist you with today?",
+          trigger: "6",
+        },
+        {
+          id: "6",
+          user: true,
+          trigger: "7",
+        },
+        {
+          id: "7",
+          message:
+            "I see you've requested help with {previousValue}, unfortunately, this feature is currently in the testing phase. Please check back soon for updates!",
           end: true,
         },
       ]}
