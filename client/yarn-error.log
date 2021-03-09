@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\egerw\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\egerw\bin;C:\Python39\Scripts;C:\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\egerw\AppData\Local\Microsoft\WindowsApps;C:\Users\egerw\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\egerw\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MongoDB\Server\4.4\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\egerw\Desktop\Project-3-Commerce\client\package.json: Unexpected token } in JSON at position 921
+      at JSON.parse (<anonymous>)
+      at C:\Users\egerw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\egerw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\egerw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "proxy":"https://localhost/3000",
+    "dependencies": {
+      "axios": "^0.21.1",
+      "chart.js": "^2.9.3",
+      "email-prop-type": "3.0.0",
+      "prop-types": "15.6.2",
+      "react": "16.5.2",
+      "react-chartjs-2": "2.7.4",
+      "react-device-detect": "1.6.1",
+      "react-dom": "16.5.2",
+      "react-helmet": "5.2.0",
+      "react-icons": "3.2.2",
+      "react-loadable": "5.5.0",
+      "react-paypal-express-checkout": "1.0.5",
+      "react-rangeslider": "2.2.0",
+      "react-redux": "5.0.7",
+      "react-router-dom": "4.3.1",
+      "react-scripts": "1.1.5",
+      "react-star-ratings": "2.3.0",
+      "reactstrap": "6.4.0",
+      "redux": "4.0.0",
+      "redux-thunk": "2.3.0",
+      "reselect": "4.0.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
