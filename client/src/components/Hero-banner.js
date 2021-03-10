@@ -48,8 +48,8 @@ const HeroBanner = () => (
         <p>T.O.T.W.</p>
       </div>
       <div style={centerButtons}>
-        <ButtonLinkGenderPage gender={"merchandise"} content="Merchandise" />
-        <ButtonLinkGenderPage gender={"art"} content="  Art  " />
+        <ButtonLinkGenderPage gender={"Artwork"} content="Artwork" />
+        <ButtonLinkGenderPage gender={"Merchandise"} content="Merchandise" />
       </div>
     </Container>
   </Jumbotron>
