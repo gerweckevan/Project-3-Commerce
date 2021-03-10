@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import HeroBanner from "../components/Hero-banner";
 import CarouselHomepage from "../components/Carousel-homepage";
+
 import ChatBot from "react-simple-chatbot";
 const styles = { marginTop: "-33px" };
 
@@ -12,6 +13,7 @@ const Homepage = () => (
       <meta name="description" content="Homepage" />
     </Helmet>
     <HeroBanner />
+
 
     <div style={styles}>
       <CarouselHomepage />

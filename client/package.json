@@ -2,9 +2,10 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000/",
+  "proxy": "http://localhost:3000/",
   "dependencies": {
     "axios": "^0.21.1",
+    "chalk": "^4.1.0",
     "chart.js": "^2.9.3",
     "email-prop-type": "3.0.0",
     "prop-types": "15.6.2",
