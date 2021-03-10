@@ -15,7 +15,7 @@ const styles = {
 const items = [
   {
     src:
-      "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b17958c40e777065643cb65954bede79&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb",
+      "https://images.unsplash.com/photo-1488952619802-0a3f502bab33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1263&q=80",
     altText: "Slide 1",
     caption: "Slide 1",
     title: "Artwork by category",
@@ -27,7 +27,7 @@ const items = [
   },
   {
     src:
-      "https://images.unsplash.com/photo-1488826701985-4c18de62b405?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9ce707ffe1b3f8c031acc5788cf6aef2&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb",
+      "https://images.unsplash.com/photo-1514564079764-600734e1e9b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
     altText: "Slide 2",
     caption: "Slide 2",
     title: "What's New",
