@@ -1,8 +1,7 @@
 
-"engines": {
-    "node": "14.x"
 {
   "name": "Creative-Design-Services",
+  "node": "14.x",
   "version": "1.0.0",
   "main": "index.js",
   "node": "12.x",
